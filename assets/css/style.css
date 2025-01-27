@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: darkred;
+}
+
+h1{
+    font-size: 4rem;
+    color: whitesmoke;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.quiz-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    padding: 10px;
+    max-width: 80rem;
+    margin: 0 auto;
+    color: darkred;
+}
+
+#homepage{
+    background-color: whitesmoke;
+    color: darkred;
+    max-width: 37.5rem;
+    margin: 6.25rem auto 0;
+    border-radius: 10px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden{
+    display: none;
+}
+
+img{
+    max-width: 80%;
+    max-height: 80%;
+}
+
+/*button*/
+
+.btn{
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid darkred;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: darkred;
+    background-color: whitesmoke;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.5rem darkred;
+}
+
+
+/*quiz page*/
+
+#quiz{
+    background-color: whitesmoke;
+    color: darkred;
+    max-width: 37.5rem;
+    margin: 6.25rem auto 0;
+    border-radius: 10px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.answer-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    border: 0.1rem solid black;
+    background-color: whitesmoke;
+}
+
+.answer-prefix{
+    padding: 1.5rem 2.5rem;
+    background-color: darkred;
+    color: whitesmoke;
+    border: 1px solid black;
+}
+
+.answer-text{
+    padding: 1.5rem;
+    background-color: whitesmoke;
+    color: darkred;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.answer-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5rem 1.5rem darkred;
+}
