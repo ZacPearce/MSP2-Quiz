@@ -118,4 +118,6 @@ nextQuestion = () => {
 
 availableQuestions.splice(questionIndex, 1);
 
+VideoPlaybackQuality
+
 startQuiz();
