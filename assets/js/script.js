@@ -6,6 +6,7 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+let totalQuestion = 10;
 
 let questions = [
     {
@@ -105,6 +106,16 @@ startQuiz = () => {
 };
 
 nextQuestion = () => {
+
+    //add redirection at end of quiz here
+    if (questionCounter >= totalQuestion) {
+        if (score === totalQuestion) {
+            window.location.href = "winner.html";
+        } else {
+            window.location.href = "loser.html"
+        }
+    }
+
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
@@ -113,10 +124,26 @@ nextQuestion = () => {
     options.forEach( choice => {
         const number = choice.dataset['number'];
         choice.innerText = currentQuestion['choice' + number];
-    })
-};
+    });
 
 availableQuestions.splice(questionIndex, 1);
 acceptingAnswers = true;
+};
+
+options.forEach(choice => {
+    choice.addEventListener("click", e => {
+        if(!acceptingAnswers) return;
+
+        acceptingAnswers = false;
+        const selectedOption = e.target;
+        const selectedAnswer = selectedOption.dataset['number'];
+
+        const isCorrect = selectedAnswer == currentQuestion.answer;
+        if (isCorrect) {
+            score += correct_bonus;
+        }
+        nextQuestion();
+    });
+});
 
 startQuiz();
