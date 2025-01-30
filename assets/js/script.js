@@ -2,7 +2,7 @@ const question = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("answer-text"));
 
 let currentQuestion = {};
-let acceptingAnswers = true;
+let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -117,7 +117,6 @@ nextQuestion = () => {
 };
 
 availableQuestions.splice(questionIndex, 1);
-
-VideoPlaybackQuality
+acceptingAnswers = true;
 
 startQuiz();
