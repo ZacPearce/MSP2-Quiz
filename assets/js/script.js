@@ -14,7 +14,7 @@ let questions = [
         choice1: "April 14th 2017",
         choice2: "April 15th 2017",
         choice3: "April 15th 2018",
-        choice4: "Appril 14th 2018",
+        choice4: "April 14th 2018",
         answer: 1
     },
     {
