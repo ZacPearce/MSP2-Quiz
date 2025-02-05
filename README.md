@@ -1,131 +1,180 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Kendrick Lamar Competition
 
-Welcome Zachary Pearce,
+## An interactive quiz to enter a competition for a chance to win VIP tickets to a Kendrick Lamar concert
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View Website Link](https://zacpearce.github.io/MSP2-Quiz/)
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+# Business Goal
 
-## Gitpod Reminders
+- ### Increase Public Interaction and Bring In More Customers
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I aim to do this by offering a chance to win a free weekend at any of our hotels across the nation with all expenses paid and all they have to do is answer a simple question and leave their contact information.
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+# UX (User Experience)
 
-Another blue button should appear to click: _Open Browser_.
+The User will be able to easily navigate through the site, whether they want to check out what the hotel is about, see the facilities of what we have to offer  via the photo gallery or book a room, it is all easy to find and can be accessed without any issues.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+They can find all relevant information needed to get in touch with us or allow them to just search through the site and find out whatever they need about us.
 
-A blue button should appear to click: _Make Public_,
+## User stories
+### First Time User
+-  to easily navigate through the site and find what they're looking for
+- to show them what we have to offer at the hotel
+- to find relevant information about the hotel
+- enter a competition that might keep them interested in the hotel
+- Get linked to our social media pages
+- Find best ways to contact the hotel
 
-Another blue button should appear to click: _Open Browser_.
+### Returning and/or Frequent User
+- Book a room with us 
+- Reminder of where we are located and how to get here
+- Re Enter our competition
+- check out our photo galleries
+- Remember where everything is and easily navigate through the site
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Design
 
-To log into the Heroku toolbelt CLI:
+For the design I used  Beige colour as I feel it's welcoming and not very aggressive, I used black and gray to compliment the beige. I used the same colours throughout the site to keep in line with the theme of the colour scheme without it being too overbearing. The only time I used a different colour was Red and that was to highlight our competition.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+# Typography
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+### *Times Roman*
+ I used Times Roman as I feel it's easy to read and it also stays with the theme of Kendrick Lamar's album 'DAMN.' 
 
-### Connecting your Mongo database
+# Structure
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
 
-------
+## Header
 
-## Release History
+- In the header of each page I have gave the page a unique title and I've hyperlinked our club mascot 'the warthog' next to the title as a return to home button.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Home Page
 
-**June 18, 2024,** Add Mongo back into template
+- You're welcomed to the page with a smile, the hero image is our home pitch but styled into a smiley face to make it more welcoming.
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+- Under the header and slogan, there's a navigation bar.
 
-**May 28 2024:** Fix Mongo and Links installs
+- Underneath the navigation bar, I've made a simple design that gives you all the information on our ethos, what we believe to be important and the inspiration of how we started, while adding images to give you a feel of what the hotel is like.
 
-**April 26 2024:** Update node version to 16
+- I've put a link to the competition in our introduction to promote it, the more people who sign up the better because they have to give us their information to enter
 
-**September 20 2023:** Update Python version to 3.9.17.
+## Rooms
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- I've made a list of amenities to show everything we have to offer and what comes with the room when you book with us 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### King Room & Queen Room
+- I've made two additional pages within the Rooms page showing our King room and our Queen room, so you can see what each of our room types look like and you can pick your prefences, I've also added a link to the bookings page if they like what they see they can quickly find a way to book.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Bookings
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- I have created an easy to fill out booking form with the price at the top and clearly visible
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- I also put the competition form next to the booking form because if you book, they are more inclined to just fill it out while they're there and if you're their for the competition, they might be tempted to book a room once they see our great prices.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Contact Us
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- The contact us page is a simple but essential page for our business, it tells the user where we are and how to get here via all forms of transportation.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- I've put all contact information on this page, phone number, the address and e-mail address, while having a subheader that lets them know we open to calls 24/7 answer any queries they have.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- I've put also put a map of our location on the contact page so they can see it.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- I've put the opening date of all our new branches across the country on here too.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+# Wireframes
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Index
+![Wireframe](assets/readme-img/wireframe-homepage.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Quiz
+![Wireframe](assets/readme-img/wireframe-rooms.png)
 
-------
+### Winner 
+![Wireframe](assets/readme-img/wireframe-galleries.png)
 
-## FAQ about the uptime script
+### Loser  
+![Wireframe](assets/readme-img/wireframe-bookings.png)
 
-**Why have you added this script?**
+# Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+To validate my HTML and CSS code I tested it via [W3C Markup Validation Service](https://validator.w3.org/)  and [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)  I also used [Page Speed Insights](https://pagespeed.web.dev/) for further testing.
 
-**How will this affect me?**
+### W3C Markup Validation Results
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Index Results
+![Validator](assets/readme-img/Validator-index.png)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+Quiz Results
+![Validator](assets/readme-img/validator-room.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+Winner Results
+![Validator](assets/readme-img/validator-king.png)
 
-**So….?**
+Loser Results
+![Validator](assets/readme-img/validator-queen.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### W3C CSS Validation Results
 
-**Can I opt out?**
+Index Results
+![Validator](<assets/readme-img/css-validator-home.png>)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+Quiz Results
+![Validator](<assets/readme-img/css-validator-rooms.png>)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Winner Results
+![Validator](assets/readme-img/css-validator-king.png)
 
-**Anything more?**
+Loser Results
+![Validator](assets/readme-img/css-validator-queen.png) 
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Page Speed Results
 
----
+Index
+![Validator](assets/readme-img/page-speed-index-mob.png)
+![Validator](assets/readme-img/page-speed-index-desk.png)
 
-Happy coding!
+Quiz  
+
+![Validator](assets/readme-img/page-speed-rooms-mob.png)
+![Validator](assets/readme-img/page-speed-rooms-desk.png)
+
+Winner 
+
+![Validator](assets/readme-img/page-speed-king-mob.png)
+![Validator](assets/readme-img/page-speed-king-desk.png)
+
+Loser
+
+![Validator](assets/readme-img/page-speed-queen-mob.png)
+![Validator](assets/readme-img/page-speed-queen-desk.png)
+
+
+# Technologies
+
+- HTML - Used to create structure of the website
+- CSS - Used to style the webpages to look more appealing for the user
+- Gitpod - IDE to develop the website
+- Javascript - Used to make webpage interactive
+- Balsamiq - Used for wireframes
+
+# Media
+
+All images were taken by myself except for **hotel-hero.jpg** which was by **pixabay** taken from [Pexels](https://www.pexels.com/photo/black-and-grey-bedspread-on-bed-and-pillow-164595/)
+
+# Deployment
+
+1. Log into GitHub.  
+2. Select '**hotel**' from the repositories.  
+3. Select '**Settings**' on the sub-headings. 
+4. Select '**Pages**' on the left hand side under the '**Code and Automation**' section.  
+5. Under the '**Build and Deployment**' section, click on the dropdown menu and select '**Main**'.  
+6. Next to the '**/(root)**' button select '**save**'
+7. An automated message will appear saying that Deployment is ready.  
+8. Refresh the page and a link should appear at the top of the page.
+9. Click on the link to go to the live deployed page.
+
+# Credits
+
+I would like to give special thanks to my mentor *Mitko Bachvarov* for his help on this project.
