@@ -35,7 +35,7 @@ They can find all relevant information needed to get in touch with us or allow t
 
 # Design
 
-For the design I used  Beige colour as I feel it's welcoming and not very aggressive, I used black and gray to compliment the beige. I used the same colours throughout the site to keep in line with the theme of the colour scheme without it being too overbearing. The only time I used a different colour was Red and that was to highlight our competition.
+For the design I used I tried to keep the theme of the DAMN. album and used colours that are attributed to the cover art, using a dark red, a bright red and white colours throughout the site.
 
 # Typography
 
@@ -47,40 +47,30 @@ For the design I used  Beige colour as I feel it's welcoming and not very aggres
 
 ## Header
 
-- In the header of each page I have gave the page a unique title and I've hyperlinked our club mascot 'the warthog' next to the title as a return to home button.
+- You're immediately alerted to the fact you have a chance to win VIP tickets to a Kendrick Lamar concert as soon as you open the page, I put it in red writing to show urgency
 
 ## Home Page
 
-- You're welcomed to the page with a smile, the hero image is our home pitch but styled into a smiley face to make it more welcoming.
+- Under the header theres a welcome message to tell you that it's a quiz and thats how you can win the tickets.
 
-- Under the header and slogan, there's a navigation bar.
+- Underneath the subheading I've explained what you need to do to win the tickets with further information about the tickets such as the time and location of the show. 
 
-- Underneath the navigation bar, I've made a simple design that gives you all the information on our ethos, what we believe to be important and the inspiration of how we started, while adding images to give you a feel of what the hotel is like.
+- I've put a the start to the quiz on a button saying "let's start the DAMN. quiz" as a play on words because of Kendrick Lamar's most acclaimed album 'DAMN.' and thats's what the quiz questions are based off.
 
-- I've put a link to the competition in our introduction to promote it, the more people who sign up the better because they have to give us their information to enter
+## Winner
 
-## Rooms
+- If you get all 10 qustions correct it will take you to a winner's page where it will congraulate you on making it this far and give you further instructions on your next steps
 
-- I've made a list of amenities to show everything we have to offer and what comes with the room when you book with us 
+- I have created a form that asks for your name and email address so we can put their information in the competition draw where the winner will be chosen at a later date.
 
-### King Room & Queen Room
-- I've made two additional pages within the Rooms page showing our King room and our Queen room, so you can see what each of our room types look like and you can pick your prefences, I've also added a link to the bookings page if they like what they see they can quickly find a way to book.
+### Loser
+- If you get any questions wrong, at the end of the quiz it will take you to the loser page where there is a link to the home page and also a link to restart the quiz.
 
-## Bookings
+## Quiz
 
-- I have created an easy to fill out booking form with the price at the top and clearly visible
+- I have created a multiple choice quiz of 10 Kendrick Lamar related questions, the question is a the top of the container and the answers are next to a prefix labelled either A, B, C or D.
 
-- I also put the competition form next to the booking form because if you book, they are more inclined to just fill it out while they're there and if you're their for the competition, they might be tempted to book a room once they see our great prices.
-
-## Contact Us
-
-- The contact us page is a simple but essential page for our business, it tells the user where we are and how to get here via all forms of transportation.
-
-- I've put all contact information on this page, phone number, the address and e-mail address, while having a subheader that lets them know we open to calls 24/7 answer any queries they have.
-
-- I've put also put a map of our location on the contact page so they can see it.
-
-- I've put the opening date of all our new branches across the country on here too.
+- Once you select your answer it automatically shows you the next question.
 
 
 # Wireframes
@@ -161,12 +151,12 @@ Loser
 
 # Media
 
-All images were taken by myself except for **hotel-hero.jpg** which was by **pixabay** taken from [Pexels](https://www.pexels.com/photo/black-and-grey-bedspread-on-bed-and-pillow-164595/)
+I only have one image and it's a picture of a poster I bought previously, the photo was taken by myself.
 
 # Deployment
 
 1. Log into GitHub.  
-2. Select '**hotel**' from the repositories.  
+2. Select '**MSP2-Quiz**' from the repositories.  
 3. Select '**Settings**' on the sub-headings. 
 4. Select '**Pages**' on the left hand side under the '**Code and Automation**' section.  
 5. Under the '**Build and Deployment**' section, click on the dropdown menu and select '**Main**'.  
@@ -177,4 +167,4 @@ All images were taken by myself except for **hotel-hero.jpg** which was by **pix
 
 # Credits
 
-I would like to give special thanks to my mentor *Mitko Bachvarov* for his help on this project.
+I would like to give special thanks to my mentor *Mitko Bachvarov* for his help on this project and my tutor Ebad Majeed for his help and patience.

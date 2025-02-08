@@ -11,18 +11,22 @@ body{
     padding-top: 10px; /*was 50px*/
 }
 
+
 header{
-    font-size: 3rem;
-    padding: 0 1rem;
+    font-size: 4rem;
+    color: red;
+    background-color: whitesmoke;
     text-align: center;
     align-items: baseline;
+    padding: 0.5rem; /*0 1rem*/
 }
 
-h1{
-    font-size: 3rem; /*test was 4rem*/
-    color: whitesmoke;
+.subheader{
     text-align: center;
-    padding: 0.5rem;
+    background-color: red;
+    color: whitesmoke;
+    padding: 0 1.5rem;
+    font-size: 2rem;
 }
 
 .navbar{
@@ -59,7 +63,7 @@ h1{
     background-color: whitesmoke;
     color: darkred;
     max-width: 37.5rem;
-    margin: 6.25rem auto 0;
+    margin: 2rem auto 0;/*6.25rem test*/
     margin-bottom: 0.5rem;
     border-radius: 10px;
     width: 90%;
@@ -75,6 +79,9 @@ h1{
     color: darkred;
     font-size: 1.25rem;
     padding: 0 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+    margin: 2rem; /*test*/
 }
 
 #lost{
@@ -118,6 +125,7 @@ img{
     text-decoration: none;
     color: darkred;
     background-color: whitesmoke;
+    border-radius: 10px;
 }
 
 .btn:hover{
