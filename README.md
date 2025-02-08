@@ -6,7 +6,7 @@
 
 # Business Goal
 
-- ### Increase Public Interaction and Bring In More Customers
+- ### Get as many people to enter the competition as possible
 
 I aim to do this by offering a chance to win a free weekend at any of our hotels across the nation with all expenses paid and all they have to do is answer a simple question and leave their contact information.
 

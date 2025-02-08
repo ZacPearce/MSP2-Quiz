@@ -8,17 +8,18 @@
 
 body{
     background-color: darkred;
-    padding-top: 10px; /*was 50px*/
+    /*padding-top: 10px; /*was 50px*/
 }
 
 
 header{
-    font-size: 4rem;
+    font-size: 2rem;
     color: red;
     background-color: whitesmoke;
     text-align: center;
     align-items: baseline;
-    padding: 0.5rem; /*0 1rem*/
+    width: 100%;
+    /*padding: 0.5rem; 0 1rem;*/
 }
 
 .subheader{
@@ -71,17 +72,6 @@ header{
     border: 1px solid black;
     font-size: 1.25rem;
     text-align: center;
-}
-
-#quiz-intro{
-    text-align: center;
-    background-color: whitesmoke;
-    color: darkred;
-    font-size: 1.25rem;
-    padding: 0 1.5rem;
-    border-radius: 10px;
-    width: 100%;
-    margin: 2rem; /*test*/
 }
 
 #lost{
