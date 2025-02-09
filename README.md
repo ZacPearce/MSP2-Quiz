@@ -85,51 +85,42 @@ To validate my HTML and CSS code I tested it via [W3C Markup Validation Service]
 ### W3C Markup Validation Results
 
 Index Results
-![Validator](assets/readme-img/Validator-index.png)
+![Validator](assets/readme-img/html-validator-index.png)
 
 Quiz Results
-![Validator](assets/readme-img/validator-room.png)
+![Validator](assets/readme-img/html-validator-quiz.png)
 
 Winner Results
-![Validator](assets/readme-img/validator-king.png)
+![Validator](assets/readme-img/html-validator-winner.png)
 
 Loser Results
-![Validator](assets/readme-img/validator-queen.png)
+![Validator](assets/readme-img/html-validator-loser.png)
 
 ### W3C CSS Validation Results
 
 Index Results
-![Validator](<assets/readme-img/css-validator-home.png>)
+![Validator](assets/readme-img/css-validator-index.png)
 
 Quiz Results
-![Validator](<assets/readme-img/css-validator-rooms.png>)
+![Validator](assets/readme-img/css-validator-quiz.png)
 
 Winner Results
-![Validator](assets/readme-img/css-validator-king.png)
+![Validator](assets/readme-img/css-validator-winner.png)
 
 Loser Results
-![Validator](assets/readme-img/css-validator-queen.png) 
+![Validator](assets/readme-img/css-validator-loser.png) 
 
 ### Page Speed Results
 
-Index
-![Validator](assets/readme-img/page-speed-index-mob.png)
-![Validator](assets/readme-img/page-speed-index-desk.png)
-
-Quiz  
-
-![Validator](assets/readme-img/page-speed-rooms-mob.png)
-![Validator](assets/readme-img/page-speed-rooms-desk.png)
-
 Winner 
 
-![Validator](assets/readme-img/page-speed-king-mob.png)
-![Validator](assets/readme-img/page-speed-king-desk.png)
+![Validator](assets/readme-img/mobile-page-speed-winner.png)
+![Validator](assets/readme-img/desktop-page-speed-winner.png)
 
 Loser
 
-![Validator](assets/readme-img/page-speed-queen-mob.png)
-![Validator](assets/readme-img/page-speed-queen-desk.png)
+![Validator](assets/readme-img/mobile-page-speed-loser.png)
+![Validator](assets/readme-img/mobile-page-speed-winner.png)
 
 
 # Technologies
