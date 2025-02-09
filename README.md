@@ -6,9 +6,9 @@
 
 # Business Goal
 
-- ### Get as many people to enter the competition as possible
+- ### Get as many people to enter the competition as possible to create a buzz about Kendrick Lamar's tour.
 
-I aim to do this by offering a chance to win a free weekend at any of our hotels across the nation with all expenses paid and all they have to do is answer a simple question and leave their contact information.
+I aim to do this by offering a chance to win tickets to the concert and letting them enter the contest as many times as they'd like, the more times they complete it the more entries they get with more opportunities to win!
 
 
 # UX (User Experience)
