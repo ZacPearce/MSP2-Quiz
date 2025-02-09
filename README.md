@@ -13,25 +13,16 @@ I aim to do this by offering a chance to win a free weekend at any of our hotels
 
 # UX (User Experience)
 
-The User will be able to easily navigate through the site, whether they want to check out what the hotel is about, see the facilities of what we have to offer  via the photo gallery or book a room, it is all easy to find and can be accessed without any issues.
-
-They can find all relevant information needed to get in touch with us or allow them to just search through the site and find out whatever they need about us.
+The user will clearly see what the intent of the page is as soon as you see the webpage, I tried to make the page as simple as possible so there's no confusion.  
 
 ## User stories
 ### First Time User
--  to easily navigate through the site and find what they're looking for
-- to show them what we have to offer at the hotel
-- to find relevant information about the hotel
-- enter a competition that might keep them interested in the hotel
-- Get linked to our social media pages
-- Find best ways to contact the hotel
+- to see what they can win
+- to explain how they can win 
+- to see an easy to find link to the quiz
 
 ### Returning and/or Frequent User
-- Book a room with us 
-- Reminder of where we are located and how to get here
-- Re Enter our competition
-- check out our photo galleries
-- Remember where everything is and easily navigate through the site
+- They can have unlimited entries into the competition to increase their chances of winning 
 
 # Design
 
@@ -47,11 +38,11 @@ For the design I used I tried to keep the theme of the DAMN. album and used colo
 
 ## Header
 
-- You're immediately alerted to the fact you have a chance to win VIP tickets to a Kendrick Lamar concert as soon as you open the page, I put it in red writing to show urgency
+- In the header I've called for the attention of all Kendrick Lamar fans, I tried to make it stand out by putting it in capital letters in a bright red font
 
 ## Home Page
 
-- Under the header theres a welcome message to tell you that it's a quiz and thats how you can win the tickets.
+- In the subheading you're alerted to the fact you have a chance to win VIP tickets to a Kendrick Lamar concert as soon as you open the page, I put it in capital letters with a bright red background to make it stand out
 
 - Underneath the subheading I've explained what you need to do to win the tickets with further information about the tickets such as the time and location of the show. 
 
