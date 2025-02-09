@@ -120,8 +120,12 @@ Winner
 Loser
 
 ![Validator](assets/readme-img/mobile-page-speed-loser.png)
-![Validator](assets/readme-img/mobile-page-speed-winner.png)
+![Validator](assets/readme-img/desktop-page-speed-loser.png)
 
+
+### JSHint Results
+
+![Validator](assets/readme-img/JSHint-testing.png)
 
 # Technologies
 
