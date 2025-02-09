@@ -70,13 +70,13 @@ For the design I used I tried to keep the theme of the DAMN. album and used colo
 ![Wireframe](assets/readme-img/wireframe-homepage.png)
 
 ### Quiz
-![Wireframe](assets/readme-img/wireframe-rooms.png)
+![Wireframe](assets/readme-img/wireframe-quiz.png)
 
 ### Winner 
-![Wireframe](assets/readme-img/wireframe-galleries.png)
+![Wireframe](assets/readme-img/wireframe-winner.png)
 
 ### Loser  
-![Wireframe](assets/readme-img/wireframe-bookings.png)
+![Wireframe](assets/readme-img/wireframe-loser.png)
 
 # Testing
 
