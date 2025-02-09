@@ -6,7 +6,7 @@
 
 # Business Goal
 
-- ### Get as many people to enter the competition as possible to create a buzz about Kendrick Lamar's tour.
+- ### Create a buzz about Kendrick Lamar's concert.
 
 I aim to do this by offering a chance to win tickets to the concert and letting them enter the contest as many times as they'd like, the more times they complete it the more entries they get with more opportunities to win!
 

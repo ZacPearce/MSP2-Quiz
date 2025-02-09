@@ -91,12 +91,11 @@ let questions = [
         answer: 1
     }
     
-]
+];
 
 //constants
 
 const correct_bonus = 1;
-const max_questions = 10;
 
 startQuiz = () => {
     questionCounter = 0;
@@ -107,7 +106,6 @@ startQuiz = () => {
 
 nextQuestion = () => {
 
-    //add redirection at end of quiz here
     if (questionCounter >= totalQuestion) {
         if (score === totalQuestion) {
             window.location.href = "winner.html";
